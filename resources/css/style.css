@@ -1,3 +1,74 @@
+/* Universal CSS */
+
 html {
   font-size: 16px;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+/* Header Section */
+
+header {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  height: 4rem;
+  background-color: #eaeaea;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 1.5rem;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.desktop-nav {
+  padding-right: 1.5rem;
+}
+
+.desktop-nav a{
+  padding-left: 1rem;
+}
+
+/* Sections Styles */
+
+section {
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Learn Section Styles */
+
+.learn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.learn-image{
+  width: 60%;
+}
+
+.learn-image img {
+  width: 100%;
+}
+
+.cta {
+  width: 40%;
+  padding-left: 1.5rem;
+}
+
+.cta-button {
+  padding: 0.5rem 3rem;
+  background-color: orange;
 }
