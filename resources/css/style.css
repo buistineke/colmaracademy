@@ -119,12 +119,23 @@ body {
   background-color: #FFF;
 }
 
-p, h1, h2, h3, h4, h5, h6, a {
+p {
   color: #1D2731;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ruda;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 a {
   text-decoration: none;
+  color: #328CC1;
+  font-weight: 900;
 }
 
 /* Header Section */
@@ -169,9 +180,11 @@ header {
   padding-left: 1rem;
   font-weight: 900;
   text-decoration: none;
+  font-size: 1rem;
+  color: #1D2731;
 }
 
-.signin-button {
+#signin-button {
   padding: 0.5rem 1rem;
   background-color: #328CC1;
   border-radius: 0.25rem;
@@ -196,19 +209,55 @@ section {
   padding: 2rem 1.5rem;
 }
 
+.container-left {
+  width: 60%;
+}
+
 .container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 40%;
   padding-left: 1.5rem;
-  padding-right: 4rem;
+  padding-right: 1.5rem;
+}
+
+.item-right {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.item-information{
+  width: 65%;
+  padding-left: 1rem;
+}
+
+.item-information a {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.item-information h5 {
+  font-weight: 900;
+  font-size: 1.25rem;
 }
 
 .image{
-  width: 60%;
+  width: 100%;
 }
 
 .image img {
   width: 100%;
 }
+.image-small {
+  width: 35%;
+}
+
+.image-small img{
+  width: 100%;
+}
+
 
 /* Learn Section Styles */
 
@@ -229,15 +278,25 @@ section {
 }
 
 .cta-button {
+  width: 50%;
   padding: 0.5rem 3rem;
-  background-color: #D9B310;
   border-radius: 0.25rem;
   color: #fff;
+  background-color: #D9B310;
   font-weight: bold;
+  text-align: center;
 }
 
 /* Information Section Styles */
 
 .information {
   background-color: #FFF;
+}
+
+.main-information {
+
+}
+
+.name {
+  font-size: 0.75rem;
 }
