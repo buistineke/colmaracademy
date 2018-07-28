@@ -125,6 +125,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Ruda;
+  color: #0B3C5D;
 }
 
 h2 {
@@ -136,6 +137,10 @@ a {
   text-decoration: none;
   color: #328CC1;
   font-weight: 900;
+}
+
+a:hover {
+  color: #1D2731;
 }
 
 /* Header Section */
@@ -155,7 +160,7 @@ header {
   padding-left: 1.5rem;
 }
 
-.name {
+.logo-text {
   margin-left: 1rem;
   font-size: 1.25rem;
 }
@@ -184,6 +189,12 @@ header {
   color: #1D2731;
 }
 
+.desktop-nav a:hover {
+  color: #328CC1;
+  transition: color 100ms ease-in;
+}
+
+
 #signin-button {
   padding: 0.5rem 1rem;
   background-color: #328CC1;
@@ -192,6 +203,12 @@ header {
   font-weight: bold;
   align-content: center;
   margin-left: 1rem;
+}
+
+#signin-button:hover {
+  background-color: #0B3C5D;
+  transition: background-color 300ms ease-in;
+
 }
 
 /* Sections Styles */
@@ -207,6 +224,7 @@ section {
   flex-direction: row;
   align-items: center;
   padding: 2rem 1.5rem;
+  align-items: flex-start;
 }
 
 .container-left {
@@ -216,16 +234,26 @@ section {
 .container-right {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-content: center;
   width: 40%;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .item-right {
   display: flex;
   flex-direction: row;
   padding: 1rem;
+  border: 2px solid #F2EDDD;
+  border-radius: 0.25rem;
+  background-color: #FFF;
+  margin-bottom: 0.5rem;
 }
 
 .item-information{
@@ -249,20 +277,26 @@ section {
 
 .image img {
   width: 100%;
+  border-radius: 0.25rem;
 }
+
 .image-small {
   width: 35%;
 }
 
 .image-small img{
   width: 100%;
+  border-radius: 0.25rem;
 }
-
 
 /* Learn Section Styles */
 
 .learn {
-  background-color: #F2EDDD;
+  background-color: #fbf9f0;
+}
+
+.cta {
+  justify-content: center;
 }
 
 .cta h1{
@@ -278,13 +312,20 @@ section {
 }
 
 .cta-button {
-  width: 50%;
-  padding: 0.5rem 3rem;
+  width: 25%;
+  padding: 1rem 3rem;
   border-radius: 0.25rem;
-  color: #fff;
-  background-color: #D9B310;
+  background-color: #FF6347;
+  font-size: 1.25rem;
   font-weight: bold;
+  color: #fff;
   text-align: center;
+}
+
+.cta-button:hover{
+  background-color: #FF4500;
+  color: #FFF;
+  transition: background-color 300ms ease-in;
 }
 
 /* Information Section Styles */
@@ -293,10 +334,63 @@ section {
   background-color: #FFF;
 }
 
-.main-information {
+.name {
+  font-size: 0.75rem;
+  color: #0B3C5D;
+}
+
+.highlight-item {
+  background-color: #fbf9f0;
+}
+
+/* Courses Section Styles */
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #fbf9f0;
+  padding: 2rem 4.5rem 2rem 4.5rem;
+}
+
+.courses-items {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.course {
+  width: 30%;
+  background-color: #FFF;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #F2EDDD;
+  border-radius: 0.25rem;
+}
+
+.course-image {
+  width: 100%;
+}
+
+.course-image img {
+  width: 100%;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.course-info {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course-info h5 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: ;
 
 }
 
-.name {
-  font-size: 0.75rem;
+.course-info h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0.5rem auto;
 }
