@@ -150,7 +150,7 @@ header {
   align-items: center;
   z-index: 1;
   height: 4rem;
-  background-color: #FFF;
+  background-color: #33124e;
 }
 
 .logo {
@@ -163,6 +163,7 @@ header {
 .logo-text {
   margin-left: 1rem;
   font-size: 1.25rem;
+  color: #fff;
 }
 
 .logo-regular {
@@ -186,7 +187,7 @@ header {
   font-weight: 900;
   text-decoration: none;
   font-size: 1rem;
-  color: #1D2731;
+  color: #fff;
 }
 
 .desktop-nav a:hover {
@@ -197,7 +198,7 @@ header {
 
 #signin-button {
   padding: 0.5rem 1rem;
-  background-color: #328CC1;
+  background-color: #dbe376;
   border-radius: 0.25rem;
   color: #fff;
   font-weight: bold;
@@ -292,7 +293,7 @@ section {
 /* Learn Section Styles */
 
 .learn {
-  background-color: #fbf9f0;
+  background-color: #33124e;
 }
 
 .cta {
@@ -303,19 +304,20 @@ section {
   font-size: 3rem;
   font-family: Ruda;
   font-weight: 900;
-  color: #0B3C5D;
+  color: #618cd5;
 }
 
 .cta h3 {
   font-weight: 400;
   padding-bottom: 1.5rem;
+  color: #fff;
 }
 
 .cta-button {
   width: 25%;
   padding: 1rem 3rem;
   border-radius: 0.25rem;
-  background-color: #FF6347;
+  background-color: #618cd5;
   font-size: 1.25rem;
   font-weight: bold;
   color: #fff;
@@ -434,10 +436,13 @@ footer {
   align-items: baseline;
 }
 
+.copyright{
+  flex-grow: 1;
+}
+
 .copyright p{
   display: flex;
   align-items: center;
-  flex-grow: 1;
   padding-left: 1.5rem;
 }
 
