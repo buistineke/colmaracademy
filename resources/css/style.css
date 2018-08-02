@@ -52,16 +52,16 @@
 @font-face {
   font-family: 'Work Sans';
   font-style: normal;
-  font-weight: 700;
-  src: local('Work Sans Bold'), local('WorkSans-Bold'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3x4X8lthNy_r-K7mV.woff2) format('woff2');
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3j4P8lthNy_r-K7mV.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
   font-family: 'Work Sans';
   font-style: normal;
-  font-weight: 700;
-  src: local('Work Sans Bold'), local('WorkSans-Bold'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3x4X8mNhNy_r-Kw.woff2) format('woff2');
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3j4P8mNhNy_r-Kw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
@@ -96,16 +96,24 @@ body {
 
 p {
   color: #1D2731;
+  line-height: 1.6rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Work Sans";
-  color: #0B3C5D;
+  color: #24305E;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 300;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 a {
@@ -124,6 +132,7 @@ header {
   display: flex;
   align-items: center;
   z-index: 1;
+  width: 100%;
   height: 4rem;
   background-color: #D5E3Ef;
 }
@@ -159,8 +168,9 @@ header {
 }
 
 .desktop-nav a{
+  font-family: 'Roboto Slab' sans-serif;
   padding-left: 1rem;
-  font-weight: 900;
+  font-weight: 700;
   text-decoration: none;
   font-size: 1rem;
   color: #24305E;
@@ -171,20 +181,20 @@ header {
   transition: color 100ms ease-in;
 }
 
-
 #signin-button {
   padding: 0.5rem 1rem;
   background-color: #D2B34B;
   color: #FFF;
-  font-weight: bold;
+  font-weight: 700;
   align-content: center;
   margin-left: 1rem;
+  border-radius: 0.25rem;
 }
 
 #signin-button:hover {
   background-color: #CE9346;
-  transition: background-color 300ms ease-in;
-
+  border-radius: 1.5rem;
+  transition: all 0.3s ease 0s;
 }
 
 /* Sections Styles */
@@ -212,7 +222,7 @@ section {
   flex-direction: column;
   align-content: center;
   width: 40%;
-  padding-left: 1.5rem;
+  padding-left: 2rem;
   padding-right: 1.5rem;
 }
 
@@ -220,6 +230,19 @@ section {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  color: #5288B5;
+}
+
+.main-item h2 {
+  padding-top: 2rem;
+}
+
+.main-item p {
+  padding: 1.5rem 0 1.5rem 0;
 }
 
 .item-right {
@@ -232,19 +255,27 @@ section {
 }
 
 .item-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 65%;
   padding-left: 1rem;
 }
 
-.item-information a {
-  text-transform: uppercase;
-  font-weight: 700;
+.item-information h5 {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.item-information p {
+  padding: 0.75rem 0 0.75rem 0;
   font-size: 0.75;
 }
 
-.item-information h5 {
-  font-weight: 700;
-  font-size: 1.25rem;
+.item-information a {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.75;
 }
 
 .image{
@@ -269,6 +300,7 @@ section {
 
 .learn {
   background-color: #D5E3Ef;
+  align-items: center;
 }
 
 .cta {
@@ -285,7 +317,9 @@ section {
 
 .cta h3 {
   font-weight: 300;
-  padding-bottom: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 2rem 2rem 2rem 0;
   color: #24305E;
   font-family: 'Roboto Slab', serif;
 }
@@ -298,12 +332,14 @@ section {
   font-weight: 400;
   color: #FFF;
   text-align: center;
+  border-radius: 0.25rem;
 }
 
 .cta-button:hover{
   background-color: #EF4056;
   color: #FFF;
-  transition: background-color 300ms ease-in;
+  border-radius: 2rem;
+  transition: all 0.3s ease 0s;
 }
 
 /* Information Section Styles */
@@ -314,7 +350,7 @@ section {
 
 .name {
   font-size: 0.75rem;
-  color: #0B3C5D;
+  color: #24305E;
   font-style: italic;
 
 }
@@ -362,8 +398,7 @@ section {
 
 .course-info h5 {
   font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .course-info h6 {
@@ -372,7 +407,7 @@ section {
   font-weight: 300;
   text-transform: uppercase;
   color: #F76C6C;
-  margin: 0.5rem auto;
+  padding: 1rem 0;
 }
 
 /* Thesis Section Styles */
@@ -412,6 +447,7 @@ footer {
   align-items: baseline;
   width: 100%;
   justify-content: space-between;
+  padding: 1rem 1.5rem;
 }
 
 .copyright {
@@ -421,12 +457,7 @@ footer {
 .copyright p{
   display: flex;
   align-items: center;
-  padding-left: 1.5rem;
   color: #FFF;
-}
-
-.footer-links {
-  padding-right: 1.5rem;
 }
 
 .footer-links a {
