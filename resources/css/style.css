@@ -394,3 +394,48 @@ section {
   font-weight: 400;
   margin: 0.5rem auto;
 }
+
+/* Thesis Section Styles */
+
+.thesis {
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-thesis {
+  display: flex;
+  flex-direction: row;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.video video{
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+/* Thesis Section Styles */
+
+footer {
+  display: flex;
+  border-top: 1px solid #000000;
+}
+
+.footer-content {
+  display: flex;
+  align-items: baseline;
+}
+
+
+.footer-content p{
+  justify-content: space-between;
+  margin-left: 1.5rem;
+}
+
+.footer-links a{
+  font-size: normal;
+}
