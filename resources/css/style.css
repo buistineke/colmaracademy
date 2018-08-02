@@ -2,114 +2,89 @@
 
 /* latin-ext */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto Slab';
   font-style: normal;
-  font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
+  font-weight: 300;
+  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngRUXZYTXPIvIBgJJSb6u9mxLCIwR2oefDofMY.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
 /* latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto Slab';
   font-style: normal;
-  font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+  font-weight: 300;
+  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngRUXZYTXPIvIBgJJSb6u9mxLCGwR2oefDo.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 /* latin-ext */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');
+  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngRUXZYTXPIvIBgJJSb6u92w7CIwR2oefDofMY.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
 /* latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngRUXZYTXPIvIBgJJSb6u92w7CGwR2oefDo.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 /* latin-ext */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Work Sans';
   font-style: normal;
-  font-weight: 900;
-  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfChc4AMP6lbBP.woff2) format('woff2');
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh314L8lthNy_r-K7mV.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Work Sans';
   font-style: normal;
-  font-weight: 900;
-  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfBBc4AMP6lQ.woff2) format('woff2');
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh314L8mNhNy_r-Kw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Ruda';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Ruda Regular'), local('Ruda-Regular'), url(https://fonts.gstatic.com/s/ruda/v9/k3kfo8YQJOpFqnYdaPTKI0H5KA.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Ruda';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Ruda Regular'), local('Ruda-Regular'), url(https://fonts.gstatic.com/s/ruda/v9/k3kfo8YQJOpFqngdaPTKI0E.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Ruda';
+  font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Ruda Bold'), local('Ruda-Bold'), url(https://fonts.gstatic.com/s/ruda/v9/k3kQo8YQJOpFosM4fdfoLmvDIaK18A.woff2) format('woff2');
+  src: local('Work Sans Bold'), local('WorkSans-Bold'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3x4X8lthNy_r-K7mV.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
 /* latin */
 @font-face {
-  font-family: 'Ruda';
+  font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Ruda Bold'), local('Ruda-Bold'), url(https://fonts.gstatic.com/s/ruda/v9/k3kQo8YQJOpFosM4fdnoLmvDIaI.woff2) format('woff2');
+  src: local('Work Sans Bold'), local('WorkSans-Bold'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3x4X8mNhNy_r-Kw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 /* latin-ext */
 @font-face {
-  font-family: 'Ruda';
+  font-family: 'Work Sans';
   font-style: normal;
   font-weight: 900;
-  src: local('Ruda Black'), local('Ruda-Black'), url(https://fonts.gstatic.com/s/ruda/v9/k3kQo8YQJOpFovs6fdfoLmvDIaK18A.woff2) format('woff2');
+  src: local('Work Sans Black'), local('WorkSans-Black'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3_4f8lthNy_r-K7mV.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
 /* latin */
 @font-face {
-  font-family: 'Ruda';
+  font-family: 'Work Sans';
   font-style: normal;
   font-weight: 900;
-  src: local('Ruda Black'), local('Ruda-Black'), url(https://fonts.gstatic.com/s/ruda/v9/k3kQo8YQJOpFovs6fdnoLmvDIaI.woff2) format('woff2');
+  src: local('Work Sans Black'), local('WorkSans-Black'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3_4f8mNhNy_r-Kw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* Universal CSS */
 
 html {
-  font-family: Roboto;
+  font-family: Roboto Slab;
   font-size: 16px;
 }
 
@@ -124,13 +99,13 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Ruda;
+  font-family: "Work Sans";
   color: #0B3C5D;
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 300;
 }
 
 a {
@@ -150,7 +125,7 @@ header {
   align-items: center;
   z-index: 1;
   height: 4rem;
-  background-color: #33124e;
+  background-color: #D5E3Ef;
 }
 
 .logo {
@@ -163,7 +138,8 @@ header {
 .logo-text {
   margin-left: 1rem;
   font-size: 1.25rem;
-  color: #fff;
+  color: #24305E;
+  font-family: "Work Sans";
 }
 
 .logo-regular {
@@ -187,27 +163,26 @@ header {
   font-weight: 900;
   text-decoration: none;
   font-size: 1rem;
-  color: #fff;
+  color: #24305E;
 }
 
 .desktop-nav a:hover {
-  color: #328CC1;
+  color: #5288B5;
   transition: color 100ms ease-in;
 }
 
 
 #signin-button {
   padding: 0.5rem 1rem;
-  background-color: #dbe376;
-  border-radius: 0.25rem;
-  color: #fff;
+  background-color: #D2B34B;
+  color: #FFF;
   font-weight: bold;
   align-content: center;
   margin-left: 1rem;
 }
 
 #signin-button:hover {
-  background-color: #0B3C5D;
+  background-color: #CE9346;
   transition: background-color 300ms ease-in;
 
 }
@@ -251,8 +226,7 @@ section {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  border: 2px solid #F2EDDD;
-  border-radius: 0.25rem;
+  border: 2px solid #D5E3Ef;
   background-color: #FFF;
   margin-bottom: 0.5rem;
 }
@@ -264,11 +238,12 @@ section {
 
 .item-information a {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 0.75;
 }
 
 .item-information h5 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.25rem;
 }
 
@@ -278,7 +253,7 @@ section {
 
 .image img {
   width: 100%;
-  border-radius: 0.25rem;
+
 }
 
 .image-small {
@@ -287,13 +262,13 @@ section {
 
 .image-small img{
   width: 100%;
-  border-radius: 0.25rem;
+
 }
 
 /* Learn Section Styles */
 
 .learn {
-  background-color: #33124e;
+  background-color: #D5E3Ef;
 }
 
 .cta {
@@ -301,31 +276,32 @@ section {
 }
 
 .cta h1{
-  font-size: 3rem;
-  font-family: Ruda;
+  font-size: 4rem;
+  font-family: "Work Sans";
   font-weight: 900;
-  color: #618cd5;
+  text-transform: uppercase;
+  color: #5288B5;
 }
 
 .cta h3 {
-  font-weight: 400;
-  padding-bottom: 1.5rem;
-  color: #fff;
+  font-weight: 300;
+  padding-bottom: 2.5rem;
+  color: #24305E;
+  font-family: 'Roboto Slab', serif;
 }
 
 .cta-button {
   width: 25%;
-  padding: 1rem 3rem;
-  border-radius: 0.25rem;
-  background-color: #618cd5;
+  padding: 0.75rem 2rem;
+  background-color: #F76C6C;
   font-size: 1.25rem;
-  font-weight: bold;
-  color: #fff;
+  font-weight: 400;
+  color: #FFF;
   text-align: center;
 }
 
 .cta-button:hover{
-  background-color: #FF4500;
+  background-color: #EF4056;
   color: #FFF;
   transition: background-color 300ms ease-in;
 }
@@ -344,7 +320,7 @@ section {
 }
 
 .highlight-item {
-  background-color: #fbf9f0;
+  background-color: #E7F6FD;
 }
 
 /* Courses Section Styles */
@@ -354,7 +330,7 @@ section {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  background-color: #fbf9f0;
+  background-color: #D5E3Ef;
   padding: 2rem 4.5rem 2rem 4.5rem;
 }
 
@@ -369,8 +345,7 @@ section {
   background-color: #FFF;
   margin-right: 2rem;
   margin-bottom: 2rem;
-  border: 2px solid #F2EDDD;
-  border-radius: 0.25rem;
+  border: 2px solid #D5E3Ef;
 }
 
 .course-image {
@@ -379,7 +354,6 @@ section {
 
 .course-image img {
   width: 100%;
-  border-radius: 0.25rem 0.25rem 0 0;
 }
 
 .course-info {
@@ -388,14 +362,16 @@ section {
 
 .course-info h5 {
   font-size: 1.5rem;
-  font-weight: 900;
-  margin-bottom: ;
-
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .course-info h6 {
+  font-family: "Roboto Slab";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #F76C6C;
   margin: 0.5rem auto;
 }
 
@@ -419,24 +395,26 @@ section {
 .video video{
   width: 100%;
   height: auto;
-  border-radius: 0.25rem;
+
 }
 
 /* Thesis Section Styles */
 
 footer {
   display: flex;
-  border-top: 1px solid #000000;
   font-size: 0.75rem;
+  background-color: #D2B34B;
 }
 
 .footer-content {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.copyright{
+.copyright {
   flex-grow: 1;
 }
 
@@ -444,9 +422,15 @@ footer {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
+  color: #FFF;
 }
 
-.footer-links a{
+.footer-links {
+  padding-right: 1.5rem;
+}
+
+.footer-links a {
   font-weight: 400;
-  color: #000;
+  color: #FFF;
+  padding-left: 1rem;
 }
