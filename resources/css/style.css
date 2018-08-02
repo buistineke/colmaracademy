@@ -337,6 +337,8 @@ section {
 .name {
   font-size: 0.75rem;
   color: #0B3C5D;
+  font-style: italic;
+
 }
 
 .highlight-item {
@@ -423,19 +425,23 @@ section {
 footer {
   display: flex;
   border-top: 1px solid #000000;
+  font-size: 0.75rem;
 }
 
 .footer-content {
   display: flex;
+  flex-direction: row;
   align-items: baseline;
 }
 
-
-.footer-content p{
-  justify-content: space-between;
-  margin-left: 1.5rem;
+.copyright p{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 1.5rem;
 }
 
 .footer-links a{
-  font-size: normal;
+  font-weight: 400;
+  color: #000;
 }
