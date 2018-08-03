@@ -205,7 +205,7 @@ header {
   transition: all 0.3s ease 0s;
 }
 
-@media only screen and (max-width: 755px) {
+@media only screen and (max-width: 750px) {
   .desktop-nav {
     display: none;
   }
@@ -318,7 +318,7 @@ section {
 
 }
 
-@media only screen and (max-width: 755px) {
+@media only screen and (max-width: 750px) {
   .container {
     padding: 0;
   }
@@ -379,7 +379,7 @@ section {
   }
 }
 
-@media only screen and (max-width: 755px) {
+@media only screen and (max-width: 750px) {
   .cta h1 {
     font-size: 2rem;
   }
@@ -420,7 +420,7 @@ section {
   background-color: #E7F6FD;
 }
 
-@media only screen and (max-width: 755px) {
+@media only screen and (max-width: 750px) {
   .container-left.main-item {
     display: none;
   }
@@ -490,7 +490,7 @@ section {
     width: 45%;
 }
 
-@media only screen and (max-width: 755px) {
+@media only screen and (max-width: 750px) {
   .courses {
     padding: 2rem 1rem;
   }
@@ -538,7 +538,7 @@ section {
 
 }
 
-@media only screen and (max-width: 755px) {
+@media only screen and (max-width: 750px) {
   .container.thesis {
     padding: 2rem 0 1.5rem 0;
   }
@@ -582,7 +582,7 @@ footer {
   padding-left: 1rem;
 }
 
-@media only screen and (max-width: 755px) {
+@media only screen and (max-width: 750px) {
   .footer-content {
     justify-content: center;
   }
