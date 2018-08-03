@@ -322,14 +322,16 @@ section {
 
 @media only screen and (max-width: 750px) {
   .container {
+    width: 100%;
     padding: 0;
   }
   .container-left {
     width: 100%;
   }
   .container-right {
+    display: flex;
     width: 100%;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
   }
 }
 
@@ -345,6 +347,14 @@ section {
   padding-top: 4.5rem;
   background-color: #D5E3Ef;
   align-items: center;
+}
+
+.container-cta {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 40%;
+  padding: 0 0 0 2.25rem;
 }
 
 .cta {
@@ -363,7 +373,7 @@ section {
   font-weight: 300;
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 1.5rem 1.5rem 2.5rem 0;
+  padding: 1.5rem 0 2.5rem 0;
   color: #24305E;
   font-family: 'Roboto Slab', serif;
 }
@@ -393,14 +403,27 @@ section {
   .cta h3 {
     font-size: 1.25rem;
     line-height: 1.75rem;
-    padding: 1rem 1rem 1.5rem 0;
+    padding: 1rem 0 1.5rem 0;
   }
 }
 
 @media only screen and (max-width: 750px) {
-  .cta {
-    padding: 2rem 1rem;
+  .container.learn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0 0 0;
   }
+  .container-cta{
+    width: 100%;
+    padding:0;
+  }
+
+  .cta {
+    display: inline-block;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
   .cta h1 {
     font-size: 2.25rem;
   }
@@ -412,11 +435,6 @@ section {
   }
   .cta-button {
     width: 50%
-  }
-  .container.learn {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
   }
 }
 
