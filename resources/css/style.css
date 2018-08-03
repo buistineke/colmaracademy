@@ -132,6 +132,7 @@ header {
   display: flex;
   align-items: center;
   z-index: 1;
+  position: fixed;
   width: 100%;
   height: 4rem;
   background-color: #D5E3Ef;
@@ -326,13 +327,15 @@ section {
 
 /* Learn Section Styles */
 
-.learn {
+.container.learn {
+  padding-top: 4.5rem;
   background-color: #D5E3Ef;
   align-items: center;
 }
 
 .cta {
   justify-content: center;
+  padding-left: 2rem;
 }
 
 .cta h1{
@@ -380,11 +383,15 @@ section {
 }
 
 @media only screen and (max-width: 750px) {
+  .cta {
+    padding: 2rem 1rem;
+  }
   .cta h1 {
     font-size: 2rem;
   }
   .cta h3 {
-    padding: 1rem 1rem 1rem 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .cta-button {
     width: 50%
@@ -392,14 +399,14 @@ section {
   .container.learn {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 4rem 0 0 0;
   }
   .container-left {
     width: 100%;
   }
-  .container-right.cta {
+  .container-right{
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
   }
 }
 
@@ -445,6 +452,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  justify-content: space-between;
 }
 
 .courses-items-mobile {
@@ -452,9 +460,8 @@ section {
 }
 
 .course {
-  width: 30%;
+  width: calc(33.3333% - 16px);
   background-color: #FFF;
-  margin-right: 1.5rem;
   margin-bottom: 2rem;
   border: 2px solid #D5E3Ef;
 }
@@ -487,7 +494,8 @@ section {
 
 @media only screen and (max-width: 980px) {
   .course {
-    width: 45%;
+    width: calc(50% - 16px)
+  }
 }
 
 @media only screen and (max-width: 750px) {
