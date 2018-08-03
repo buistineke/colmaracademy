@@ -11,19 +11,30 @@
     <!-- Header Section -->
 
     <header class="flex" role="presentation">
-      <div class="logo" role="presentation">
-        <img src="./resources/images/ic-logo.svg" alt="logo"/>
-        <div class="logo-text">
-          <span class="logo-bold">COLMAR<span class="logo-regular">ACADEMY</span></span>
+
+      <div class="desktop-nav">
+        <div class="logo" role="presentation">
+          <img src="./resources/images/ic-logo.svg" alt="logo"/>
+          <div class="logo-text">
+            <span class="logo-bold">COLMAR<span class="logo-regular">ACADEMY</span></span>
+          </div>
         </div>
+
+        <nav class="desktop-navlinks" role="presentation">
+          <a href="#">On Campus</a>
+          <a href="#">Online</a>
+          <a href="#">For Companies</a>
+          <a href="#" id="signin-button">Sign in</a>
+        </nav>
       </div>
 
-      <nav class="desktop-nav" role="presentation">
-        <a href="#">On Campus</a>
-        <a href="#">Online</a>
-        <a href="#">For Companies</a>
-        <a href="#" id="signin-button">Sign in</a>
+      <nav class="mobile-nav" role="presentation">
+          <a href="#"><img src="./resources/images/ic-logo.svg" alt="logo"/></a>
+          <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="on campus"/></a>
+          <a href="#"><img src="./resources/images/ic-online.svg" alt="online"/></a>
+          <a href="#"><img src="./resources/images/ic-login.svg" alt="login"/></a>
       </nav>
+
     </header>
 
     <main>
@@ -50,19 +61,16 @@
       <section>
         <div class="container information">
 
-          <div class="container-left" role="presentation">
-            <div class="main-item" role="presentation">
+          <div class="container-left main-item" role="presentation">
               <div class="image" role="presentation">
                 <img src="./resources/images/information-main.jpg" alt="Emmanual from Hiring.com">
               </div>
               <h2>It doesn't hurt to keep practicing</h2>
               <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
               <span class="name">Emmanual, Sr Stratagist at Hiring.com</span>
-            </div>
-
           </div>
 
-          <div class="container-right" role="presentation">
+          <div class="container-right dates" role="presentation">
 
             <div class="item-right" role="presentation">
               <div class="image-small" role="presentation">
@@ -104,12 +112,12 @@
 
 <!-- Courses Section -->
 
-        <section>
+      <section>
 
-          <div class="courses" role="presentation">
-            <div class="section-title" role="presentation">
-              <h2>Start learning</h2>
-            </div>
+        <div class="courses" role="presentation">
+          <div class="section-title" role="presentation">
+            <h2>Start learning</h2>
+          </div>
 
             <div class="courses-items" role="presentation">
 
@@ -178,10 +186,11 @@
                   <p>Analytics, Content Marketing, Mobile Marketing</p>
                 </div>
               </div>
-
             </div>
-          </div>
+
         </section>
+
+        <!-- Thesis Section -->
 
         <section>
           <div class="container thesis" role="presentation">
@@ -190,7 +199,9 @@
               <h2>Thesis exhibits</h2>
             </div>
 
-            <div class="container-thesis" role="presentation">
+            <div class="container-thesis">
+
+
 
             <div class="container-left" role="presentation">
               <div class="video" role="presentation">
@@ -200,7 +211,7 @@
               <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
             </div>
 
-            <div class="container-right" role="presentation">
+            <div class="container-right thesis-items" role="presentation">
 
               <div class="item-right highlight-item" role="presentation">
                 <div class="image-small" role="presentation">
@@ -221,12 +232,14 @@
                   <p>Research study about new york</p>
                 </div>
               </div>
+            </div>
+          </div>
 
-              </div>
-
-          </section>
+        </section>
         </main>
 
+        <!-- Footer Section -->
+        
         <footer class="flex" role="presentation">
           <div class="footer-content" role="presentation">
             <div class="copyright" role="presentation">
